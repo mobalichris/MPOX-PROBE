@@ -1,0 +1,45 @@
+{
+  "title": "MPOX-PROBE WP6: base de données des facteurs de risque du MPXV et produits de cartographie du risque",
+  "upload_type": "dataset",
+  "language": "fra",
+  "description": "<p>Base de données ouverte des facteurs de risque du virus mpox (MPXV) pour la République démocratique du Congo et la République du Congo, produite dans le lot de travaux 6 (WP6, cartographie et modélisation du risque) du projet MPOX-PROBE.</p><p>Le sous-ensemble de référence couvre la province du Maï-Ndombe (RDC) et réunit sept domaines de données: limites des 14 zones de santé; série épidémiologique hebdomadaire de 2000 à la semaine 19 de 2026, soit 18 973 enregistrements zone-semaine totalisant 6 480 cas confirmés et 288 décès; 130 séquences de MPXV avec clade, lignée, date de prélèvement et complétude, dont 125 de clade Ia et 5 de clade Ib; 95 animaux sauvages prélevés en février 2025 avec espèce, mode de capture, organes et coordonnées; 2 441 enregistrements d'occurrence géoréférencés couvrant 30 espèces de mammifères; un réseau de transport de 405 segments distinguant sentiers, chemins et pistes des voies navigables; et une matrice de connectivité inter-zones 14 par 14.</p><p>Le dépôt héberge également les surfaces d'aptitude d'habitat des réservoirs animaux candidats du MPXV produites par modélisation de niche écologique (29 rasters par espèce et une prédiction combinée de débordement), correspondant au livrable D6.2.</p><p>Les constats de qualité connus sur les fichiers publiés sont documentés dans le rapport du livrable D6.1, avec la correction requise pour chacun.</p><p><strong>Avertissement</strong>: une part des séquences de MPXV est partagée via Pathoplexus sous conditions Restricted-Use, utilisables à des fins de santé publique mais non en publication sans le consentement des déposants tant que la restriction court. Vérifier les conditions attachées à chaque numéro d'accession avant toute réutilisation en publication.</p><p>Financé par l'Union européenne, convention de subvention n° 101195102 (HORIZON-JU-RIA, EDCTP3 Joint Undertaking). Les points de vue exprimés n'engagent que leurs auteurs et ne reflètent pas nécessairement ceux de l'Union européenne ni de l'Agence exécutive européenne pour la recherche.</p>",
+  "creators": [
+    {
+      "name": "Ibolobolo Mobali, Christian",
+      "affiliation": "Institut National de Recherche Biomédicale (INRB), Unité de Modélisation et Intelligence Épidémique (UMIE), Kinshasa, RDC"
+    },
+    {
+      "name": "Ebengo, Dav",
+      "affiliation": "Institut National de Recherche Biomédicale (INRB), Unité de Modélisation et Intelligence Épidémique (UMIE), Kinshasa, RDC"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0-D6.1",
+  "keywords": [
+    "mpox",
+    "MPXV",
+    "clade Ia",
+    "clade Ib",
+    "République démocratique du Congo",
+    "République du Congo",
+    "Maï-Ndombe",
+    "épidémiologie spatiale",
+    "modélisation du risque",
+    "réservoir animal",
+    "One Health",
+    "surveillance génomique",
+    "connectivité spatiale"
+  ],
+  "grants": [
+    { "id": "101195102" }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mobalichris/MPOX-PROBE",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Livrables du WP6 de MPOX-PROBE. D6.1: base de données des facteurs de risque du MPXV. D6.2: base et cartographie des habitats potentiels du réservoir animal. Les dossiers D6.3 et D6.4 sont créés et seront peuplés au fur et à mesure de la production des livrables correspondants."
+}

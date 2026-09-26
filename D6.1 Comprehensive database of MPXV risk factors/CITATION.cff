@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "MPOX-PROBE WP6: base de données des facteurs de risque du MPXV et produits de cartographie du risque"
+message: "Si vous utilisez ces données, merci de citer cet enregistrement."
+type: dataset
+abstract: >-
+  Base de données ouverte des facteurs de risque du virus mpox (MPXV) pour la
+  République démocratique du Congo et la République du Congo, produite dans le
+  lot de travaux 6 du projet MPOX-PROBE. Le sous-ensemble de référence couvre la
+  province du Maï-Ndombe (RDC) et réunit sept domaines : limites des 14 zones de
+  santé, série épidémiologique hebdomadaire 2000-2026 (18 973 enregistrements
+  zone-semaine, 6 480 cas confirmés, 288 décès), 130 séquences de MPXV avec
+  attribution de clade, 95 prélèvements d'animaux sauvages (février 2025),
+  2 441 enregistrements d'occurrence de 30 espèces de mammifères, réseau de
+  transport de 405 segments et matrice de connectivité inter-zones. Le dépôt
+  héberge également les surfaces d'aptitude d'habitat des réservoirs animaux
+  candidats produites par modélisation de niche écologique (livrable D6.2).
+authors:
+  - family-names: Ibolobolo Mobali
+    given-names: Christian
+    affiliation: "Institut National de Recherche Biomédicale (INRB), Unité de Modélisation et Intelligence Épidémique (UMIE), Kinshasa, RDC"
+    email: christian.ibolobolo@umie-inrb.cd
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # à compléter
+  - family-names: Ebengo
+    given-names: Dav
+    affiliation: "Institut National de Recherche Biomédicale (INRB), Unité de Modélisation et Intelligence Épidémique (UMIE), Kinshasa, RDC"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # à compléter
+  # Ajouter ici les co-auteurs UNIKIN / INOHA et FCRM avant publication
+keywords:
+  - mpox
+  - MPXV
+  - monkeypox virus clade Ia
+  - monkeypox virus clade Ib
+  - République démocratique du Congo
+  - République du Congo
+  - Maï-Ndombe
+  - épidémiologie spatiale
+  - modélisation du risque
+  - réservoir animal
+  - One Health
+  - surveillance génomique
+license: CC-BY-4.0
+repository-code: "https://github.com/mobalichris/MPOX-PROBE"
+version: "1.0-D6.1"
+date-released: "2026-09-25"   # à ajuster à la date réelle de la release
+# doi: "10.5281/zenodo.XXXXXXX"   # à compléter après l'archivage Zenodo
+contact:
+  - family-names: Ibolobolo Mobali
+    given-names: Christian
+    email: christian.ibolobolo@umie-inrb.cd
+references:
+  - type: grant
+    title: "Strengthening epidemiological, genomic and community surveillance of Mpox virus (MPXV) at the Congo River border for DRC and RoC (MPOX-PROBE)"
+    number: "101195102"
+    institution:
+      name: "EDCTP3 Joint Undertaking, Horizon Europe, Union européenne"
+    authors:
+      - name: "Consortium MPOX-PROBE"
